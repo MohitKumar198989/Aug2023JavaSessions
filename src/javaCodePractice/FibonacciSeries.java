@@ -6,7 +6,10 @@ public class FibonacciSeries {
 
 	public static void main(String[] args) {
 
-
+		// the Fibonacci sequence is a sequence in which each number is the sum 
+		//of the two preceding ones. Numbers that are part of the Fibonacci sequence
+		//are known as Fibonacci numbers, commonly denoted Fₙ.
+		// Fibonacci of 5 = 
 		int n = 10, num1 = 0, num2 = 1;
 		System.out.print("Fibonacci Series: " + num1 + ", " + num2);
 		for (int i = 2; i < n; i++) {
