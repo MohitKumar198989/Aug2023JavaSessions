@@ -21,7 +21,11 @@ public class AnagramCheck {
 		
 
 	}
-
+/**
+ * 
+ * @param str
+ * @param s3
+ */
 	public static void numberIsAnagram(String str, String s3) {
 		char[] arr1 = str.toCharArray();
 		char[] arr2 = s3.toCharArray();
