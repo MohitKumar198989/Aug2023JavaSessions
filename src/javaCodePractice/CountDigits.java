@@ -12,6 +12,28 @@ public static void CountDigitsMethod(int num) {
 		
 	}
 
+	public static void countDigitsMethod1(int number) {
+		
+		int count = 0; // Initialize digit count
+        int temp = number; // Temporary variable to manipulate the number
+
+        // Check if the number is 0
+        if (number == 0) {
+            count = 1; // 0 has one digit
+        } else {
+            // Loop to count digits
+            while (temp != 0) {
+                temp /= 10; // Remove the last digit
+                count++; // Increment count
+            }
+        }
+
+        System.out.println("Number of digits: " + count); // Output the count
+        
+		
+	}
+	
+
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
@@ -21,8 +43,9 @@ public static void CountDigitsMethod(int num) {
 		int number = scanner.nextInt();
 		
 		CountDigitsMethod(number);
+		countDigitsMethod1(number);
 		
-
+		scanner.close(); // Close the scanner
 	}
 
 	
