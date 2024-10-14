@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CountDigits {
 	
-public static void CountDigitsMethod(int num) {
+public static void CcountDigitsMethod(int num) {
 		
 		int count = String.valueOf(num).length();
 		
@@ -42,7 +42,7 @@ public static void CountDigitsMethod(int num) {
 		
 		int number = scanner.nextInt();
 		
-		CountDigitsMethod(number);
+		CcountDigitsMethod(number);
 		countDigitsMethod1(number);
 		
 		scanner.close(); // Close the scanner
